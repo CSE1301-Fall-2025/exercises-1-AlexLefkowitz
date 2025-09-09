@@ -9,8 +9,8 @@ public class E02TwoDArraySet {
 		String[][] seatingChart;
 
 		// create arrays
-		ticketInfo = new int [2][3];
-		seatingChart =  new String [3][2];
+		ticketInfo = new int [3][3];
+		seatingChart =  new String [4][2];
 
 		// initialize the array elements
 		ticketInfo[0][0] = 15;

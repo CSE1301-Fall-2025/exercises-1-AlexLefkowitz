@@ -8,8 +8,10 @@ public class E04ForLoopBackwards {
 	//3
 	//1
 	public static void main(String[] args) {
-		for(int count = 1; count <= 5; count++) {
+		for(int count = 5; count >= 1; count-- ) {
+			if (count%2==1){
 			System.out.println(count);
+		}
 		}
 	}
 }

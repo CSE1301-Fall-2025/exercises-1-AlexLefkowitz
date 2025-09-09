@@ -5,5 +5,11 @@ public class E19CountX {
 	//"x"s in the String. Use indexOf() with a loop.
     public static void main(String[] args) {
         String message = "xyxxzax";
+        int numX=0;
+        for (int i=0; i< message.length(); i++)
+            if (message.charAt(i)=='x'){
+                numX++;
+            }
+        System.out.println("There are "+ numX+ " Xs");
     }
 }

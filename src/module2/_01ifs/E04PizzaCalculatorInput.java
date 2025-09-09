@@ -11,10 +11,15 @@ public class E04PizzaCalculatorInput {
         Scanner scan = new Scanner(System.in);
         pizzaSlices = scan.nextInt();
         numPeople = scan.nextInt();
+        if (numPeople>0){
         slicesPerPerson = pizzaSlices / numPeople;
         leftoverSlices = pizzaSlices % numPeople;
         System.out.println(slicesPerPerson);
         System.out.println(leftoverSlices);
+        }
+        else{
+            System.out.println("There are no people to give pizza to");
+        }
     }
 
 }

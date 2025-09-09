@@ -7,6 +7,7 @@ public class E05Initialize2DArray {
 	//"Kamal, Maria, Elissa" in the second.
 	public static void main(String[] args) {
 		// ADD CODE HERE //
+		String students[][] = {{"Brice", "Marvin", "Anna"}, {"Kamal", "Maria", "Elissa"}};
 
 
 		// Should print the values in students in order

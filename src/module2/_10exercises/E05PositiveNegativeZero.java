@@ -8,6 +8,12 @@ public class E05PositiveNegativeZero {
 		if (x > 0) {
 			System.out.println("x is less than 0");
 		}
+		else if (x==0){
+			System.out.println("x is 0");
+		}
+		else {
+			System.out.println("x is greater than 0");
+		}
 	}
 }
 

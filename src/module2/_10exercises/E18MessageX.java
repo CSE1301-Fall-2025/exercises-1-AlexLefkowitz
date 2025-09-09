@@ -6,7 +6,14 @@ public class E18MessageX {
     public static void main(String[] args) {
         String message = "Ix lovex youxxx";
         System.out.println(message);
-
-
+        int index;
+        while (message.indexOf("x") >= 0) {
+			// Find the next index for 1
+			index = message.indexOf("x");
+			String firstpart = message.substring(0,index);
+			String lastpart = message.substring(index+1);
+			message = firstpart + lastpart;
+            System.out.println(message);
+		}
     }
 }

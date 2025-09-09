@@ -1,5 +1,7 @@
 package module3._1basics;
 
+import java.util.logging.Handler;
+
 public class E03ArrayAccess {
 	
 	//Exercise 3: Can you print out 3rd score in the array (remember 
@@ -23,6 +25,22 @@ public class E03ArrayAccess {
 
 		// Print first highScore at index 0
 		System.out.println( highScores[0] );
+
+		//print out 3rd number in array
+		System.out.println(highScores[2]);
+		//change last score to 97
+		highScores[4]=97;
+		//add an extra element
+		int[] highScores1 = new int[6];
+		for (int i = 0; i < highScores.length; i++) {
+                highScores1[i] = highScores[i];
+            }
+		//add another score and print it out
+		highScores1[5]= 10;
+		System.out.println(highScores1[5]);
+		//what if i access an index that does not exist?
+		//System.out.println(highScores1[7]);
+		//error: index 7 out of bounds for legnth 6
 
 	}
 }

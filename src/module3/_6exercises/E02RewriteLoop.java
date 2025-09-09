@@ -10,5 +10,11 @@ public class E02RewriteLoop {
 		{
 			System.out.print(arr1[index] + ", ");
 		}
+		//next line
+		System.out.println();
+		//Rewritten as:
+		for (int i : arr1) {
+			System.out.print(i + ", ");
+		}
 	}
 }
